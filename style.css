@@ -1,0 +1,39 @@
+
+#clock{
+    height:350px;
+    width:350px;
+    background:url('../img/clock.jpg');
+    background-size: cover;
+    position: relative;
+    
+}
+#hr{
+    height: 90px;
+    width: 3px;
+    background-color: red;
+    position: absolute;
+    transform-origin: bottom;
+    left: 175px;
+    top: 88px;
+
+}
+#min{
+    height: 120px;
+    width:2px;
+    background-color: green;
+    position: absolute;
+    transform-origin: bottom ;
+    left: 175.8px;
+    top: 58px;
+
+}
+#sec{
+    height: 150px;
+    width:1px;
+    background-color: black;
+    position: absolute;
+    left:176.8px;
+
+    transform-origin: bottom;
+    top: 28px;
+}
