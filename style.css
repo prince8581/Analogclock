@@ -2,7 +2,7 @@
 #clock{
     height:350px;
     width:350px;
-    background:url('../img/clock.jpg');
+    background:url('clock.jpg');
     background-size: cover;
     position: relative;
     
